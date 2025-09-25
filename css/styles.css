@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.main-h1 {
+  color: #ffffff;
+  font-size: 2.4em;
+  margin-top: 24px;
+  text-align: center;
+}
+
+h1{
+  color: #000000;
+  font-size: 2.4em;
+  margin: 0;
+  text-align: center;
+}
+
+.home-tagline {
+  color: #ffffff;
+  font-size: 1.1em;
+  margin: 6px 6px 6px 6px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #feb300;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 1.08em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Float-based hobbies layout */
+.hobby-list {
+  width: 100%;
+  overflow: auto;
+  margin-top: 32px;
+  padding: 0;
+}
+
+.hobby {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  text-align: center;
+  min-height: 270px;
+}
+
+.hobby img {
+  width: 100%;
+  height: auto;
+  max-height: 140px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #e0e0e0;
+  display: block;
+}
+
+.hobby h2 {
+  margin: 10px 0 8px 0;
+  font-size: 1.2em;
+  color: #444;
+}
+
+.hobby p {
+  color: #666;
+  font-size: 0.98em;
+  margin: 0 0 8px 0;
+  word-break: break-word;
+}
+
+.links-list a,
+.links a {
+  color: #2683e7;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #1a2533;
+}
+
+.hobby-list {
+  width: 100%;
+  overflow: auto;
+  margin-top: 32px;
+  padding: 0;
+}
+
+.hobby {
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+}
+
+.hobby img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #e0e0e0;
+}
+
+.hobby h2 {
+  margin: 10px 0 8px 0;
+  font-size: 1.2em;
+  color: #444;
+}
+
+.hobby p {
+  color: #666;
+  font-size: 0.98em;
+}
+
+
+/* Float-based gallery layout */
+.gallery-list {
+  width: 100%;
+  overflow: auto;
+  margin-top: 32px;
+  padding: 0;
+}
+
+.gallery-item {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background: #e0e0e0;
+  margin-bottom: 12px;
+}
